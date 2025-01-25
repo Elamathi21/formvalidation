@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+h3{
+    text-align: center;
+    color:#333;
+}
+form{
+    max-width: 600px;
+    margin:0 auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 1px;
+}
+input[type="text"],
+input[type="password"],
+select,textarea{
+    width: 100%;
+    margin:10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 1;
+    font-size: 16px;
+}
+select{
+    width: 100%;
+    margin:5px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+}
+textarea{
+    resize: vertical;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="checkbox"]
+{
+   background-color: rgb(41, 142, 214); 
+   color:#fff;
+   padding: 10px 20px;
+   border: 1px solid #fff;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover
+{
+   background-color: rgb(41, 81, 214); 
+}
+.passcontainer{
+position: relative;
+display: flex;
+align-items: center;
+}
+#password{
+flex:1
+}
+#togglePasswordButton{
+position:absolute;
+right: 15px;
+background: none;
+border:1px solid #9c9595;
+cursor:pointer;
+font-size:14px;
+color:#555;
+border-radius: 5px;
+}
+.error-message {
+            color: red;
+            font-size: 14px;
+            margin-top: 5px;
+        }
